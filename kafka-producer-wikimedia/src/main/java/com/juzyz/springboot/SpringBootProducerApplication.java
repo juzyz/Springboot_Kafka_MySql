@@ -7,10 +7,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootKafkaApplication implements CommandLineRunner {
+public class SpringBootProducerApplication implements CommandLineRunner {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootKafkaApplication.class, args);
+        SpringApplication.run(SpringBootProducerApplication.class, args);
     }
 
     @Autowired
